@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sxtlal.allenlucas.saomiaodemo.MainActivity">
+<!--<io.vov.vitamio.widget.VideoView-->
+    <!--android:id="@+id/vv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="300dp" />-->
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:text="本地视频列表"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#fff"-->
+        <!--android:background="#0000ff"-->
+        <!--android:onClick="play"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="本地视频列表"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#0000ff"
+        />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
